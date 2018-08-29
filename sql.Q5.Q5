@@ -1,0 +1,2 @@
+SELECT item_name,item_price FROM item WHERE category_id = 1;
+ALTER TABLE item MODIFY item_price INT NOT NULL;
